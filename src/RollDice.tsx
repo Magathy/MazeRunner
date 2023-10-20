@@ -12,12 +12,12 @@ export const RollDice = ({
 }: {
   rollNumber?: number;
   setRollNumber: React.Dispatch<React.SetStateAction<number | undefined>>;
-  numberOfIntersections: number;
+  numberOfIntersections?: number;
 
   extraAction?: (params: string) => void;
 }) => {
   const afterRolling = () => {
-    const resultDice = randomNumber(1, 21 - numberOfIntersections);
+    const resultDice = randomNumber(1, 21 - (numberOfIntersections || 0));
     setRollNumber(resultDice);
     return resultDice;
   };
