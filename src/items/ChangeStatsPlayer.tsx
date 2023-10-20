@@ -16,7 +16,7 @@ export const ChangeStatsPlayer = ({
       <>
         <div>
           {" "}
-          cet objet augmente votre statitique de dégats magiques de{" "}
+          cet objet augmente votre statistique de dégats magiques de{" "}
           {selectedLoot.magDamages}
         </div>
       </>
@@ -27,7 +27,7 @@ export const ChangeStatsPlayer = ({
       <>
         <div>
           {" "}
-          cet objet augmente votre statitique de dégats physiques de{" "}
+          cet objet augmente votre statistique de dégats physiques de{" "}
           {selectedLoot.physDamages}
         </div>
       </>
@@ -38,7 +38,7 @@ export const ChangeStatsPlayer = ({
       <>
         <div>
           {" "}
-          cet objet augmente votre statitique de résistence magiques de{" "}
+          cet objet augmente votre statistique de résistence magiques de{" "}
           {selectedLoot.magResist}
         </div>
       </>
@@ -49,7 +49,7 @@ export const ChangeStatsPlayer = ({
       <>
         <div>
           {" "}
-          cet objet augmente votre statitique de résistence physiques de{" "}
+          cet objet augmente votre statistique de résistence physiques de{" "}
           {selectedLoot.physResist}
         </div>
       </>
