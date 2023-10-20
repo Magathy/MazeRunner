@@ -68,6 +68,7 @@ export const Maze = () => {
         <RollDice
           rollNumber={rollCorridor}
           setRollNumber={setRollCorridor}
+          numberOfIntersections={numberOfIntersections}
           extraAction={(category: string) => {
             setCorridorMonster(extractMonsters(category));
             SetCurrentStep("corridor");
