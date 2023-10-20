@@ -4,7 +4,7 @@ import { CombatSystem } from "./combatMechanic/CombatSystem";
 import { Initiative } from "./combatMechanic/Initiative";
 import { Monster } from "./characters/monstersList";
 import "./monsterAppear.css";
-import { Player, PlayerCharacteristics, player } from "./characters/Player";
+import { Player, PlayerCharacteristics } from "./characters/Player";
 
 export const MonsterAppear = ({
   monsterSet,
@@ -42,7 +42,7 @@ export const MonsterAppear = ({
           </div>
           <img
             src={monsterSet.avatar}
-            alt="image du monstre"
+            alt="monstre"
             className="imageOfMonster"
           ></img>
         </div>

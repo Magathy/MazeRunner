@@ -1,5 +1,4 @@
 import { PlayerCharacteristics } from "../characters/Player";
-import { Button } from "../styles/Button";
 
 import { loot } from "./lootsList";
 

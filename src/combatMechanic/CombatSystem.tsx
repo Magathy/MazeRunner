@@ -32,7 +32,7 @@ export const CombatSystem = ({
 
   const initiativeMonster = useMemo(
     () => randomNumber(1, 21) + monsterToFight.speed,
-    []
+    [monsterToFight.speed]
   );
 
   const [isMonsterTurn, setIsMonsterTurn] = useState(true);

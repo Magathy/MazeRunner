@@ -33,7 +33,7 @@ export const Player = ({
         <div className="presentationPlayer">
           <img
             src={player.avatar}
-            alt="image du joueur"
+            alt="joueur"
             className="avatarOfPlayer"
           ></img>
           <div>{player.name}</div>

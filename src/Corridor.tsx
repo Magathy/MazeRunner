@@ -1,13 +1,11 @@
-import { channel } from "diagnostics_channel";
-import { Monster, monstersList } from "./characters/monstersList";
+import { Monster } from "./characters/monstersList";
 import { Loots } from "./items/Loots";
 import { Statue } from "./items/Statue";
 import { MonsterAppear } from "./MonsterAppear";
 import { Button } from "./styles/Button";
-import { Player, PlayerCharacteristics, player } from "./characters/Player";
+import { Player, PlayerCharacteristics } from "./characters/Player";
 import { TextStyle } from "./styles/TextStyle";
 import "./corridor.css";
-import { useState } from "react";
 
 export const categoryOfRoll = (rollCorridor: number) => {
   if (rollCorridor === 20) {
