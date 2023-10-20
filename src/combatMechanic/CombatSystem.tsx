@@ -117,7 +117,6 @@ export const CombatSystem = ({
   if (initiativePlayer >= initiativeMonster && isMonsterTurn) {
     return (
       <>
-        <TextStyle>Vous avez gagné le jet d'initiative.</TextStyle>
         <Button onClick={() => setIsMonsterTurn(false)}>
           {" "}
           Attaquez le monstre!
