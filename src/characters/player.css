@@ -1,0 +1,34 @@
+.avatarOfPlayer{
+    max-width: 200px;
+    height: auto;
+   
+}
+
+.presentationPlayer{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:8px
+}
+.allPlayerLayout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.statsDisplay{
+   position: absolute;
+   right: 32px;
+}
+
+.statsLayout{
+    display: flex;
+    
+   
+}
+
+.WrapUpStats{
+    margin-left: 32px;
+}

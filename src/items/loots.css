@@ -1,0 +1,13 @@
+.lootPageLayout{
+    display: flex;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column
+}
+
+.pictureOfLoot{
+    height: 160px;
+  width: auto;
+}
